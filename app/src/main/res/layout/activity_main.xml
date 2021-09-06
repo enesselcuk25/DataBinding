@@ -6,7 +6,7 @@
 
         <variable
             name="users"
-            type="com.example.databinding.Users" />
+            type="com.example.databinding.data.Users" />
 
     </data>
 
@@ -15,7 +15,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        tools:context=".MainActivity">
+        tools:context=".view.MainActivity">
 
         <ImageView
             android:id="@+id/imageView"

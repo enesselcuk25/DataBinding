@@ -1,4 +1,4 @@
-package com.example.databinding
+package com.example.databinding.data
 
 data class Users
     (

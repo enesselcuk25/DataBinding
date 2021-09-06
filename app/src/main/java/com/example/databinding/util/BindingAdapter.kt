@@ -1,4 +1,4 @@
-package com.example.databinding
+package com.example.databinding.util
 
 import android.content.Context
 import android.widget.ImageView
