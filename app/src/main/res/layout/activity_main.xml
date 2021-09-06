@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="users"
+            type="com.example.databinding.Users" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            image2="@{users.image}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="150dp"
+            android:minWidth="200dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/TextUseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{users.userName}" />
+
+        <TextView
+            android:id="@+id/TextUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{users.name}" />
+
+        <TextView
+            android:id="@+id/TextuserAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{String.valueOf(users.age)}" />
+
+        <TextView
+            android:id="@+id/TextUserEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{users.email}" />
+
+        <TextView
+            android:id="@+id/TextUserPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{users.password}" />
+
+        <TextView
+            android:id="@+id/TextUserAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{users.address}" />
+
+
+
+    </LinearLayout>
+</layout>
